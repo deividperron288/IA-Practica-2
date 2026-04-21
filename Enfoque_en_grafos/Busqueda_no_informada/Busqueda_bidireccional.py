@@ -4,7 +4,7 @@ from collections import deque
 grafo = {
     'A': ['B', 'C'],
     'B': ['A', 'D', 'E'],
-    'C': ['A', 'F', 'G', 'H'],  # H ahora está al mismo nivel que G
+    'C': ['A', 'F', 'G', 'H'],
     'D': ['B'],
     'E': ['B'],
     'F': ['C'],
